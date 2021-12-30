@@ -1,0 +1,15 @@
+.content__header {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.feed__container {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {}

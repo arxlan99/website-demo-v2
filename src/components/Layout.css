@@ -1,0 +1,49 @@
+.content {
+    position: absolute;
+    right: 0;
+    width: calc(100% - 380px);
+    margin: 80px 20px;
+}
+
+.content__notificationFeed {
+    position: absolute;
+    overflow-y: scroll;
+    margin: 60px 0;
+    right: -100%;
+    transition: right 0.5s;
+    overflow-y: auto;
+    border: 1px solid rgb(230, 230, 230);
+
+}
+
+
+
+.notificationFeedActive {
+    right: 0 !important;
+    display: block;
+}
+
+
+
+@media (max-width: 768px) {
+    .content {
+        width: 100%;
+        margin: 80px 0;
+    }
+
+    .content__notificationFeed>div {
+        bottom: 0;
+        height: 100vh;
+    }
+
+    .content__notificationFeed {
+        width: 100%;
+        display: none;
+    }
+
+    .notificationFeedActive {
+        display: block;
+    }
+
+
+}

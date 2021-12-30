@@ -1,0 +1,28 @@
+.battleCards__header {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.battleCards__textareaContainer {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.battleCards__textareaContainer>div {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    display: inline-block;
+    width: 45%;
+}
+
+@media screen and (max-width: 1024px) {
+    .battleCards__textareaContainer>div {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
