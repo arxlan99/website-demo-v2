@@ -51,7 +51,6 @@ const Layout = (props) => {
         <NotificationFeed />
         <NotificationFeed />
         <NotificationFeed />
-        <NotificationFeed />
       </div>
     </div>
   );

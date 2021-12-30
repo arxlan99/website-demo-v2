@@ -6,13 +6,14 @@
 }
 
 .content__notificationFeed {
-    position: absolute;
+    position: fixed;
     overflow-y: scroll;
     margin: 60px 0;
     right: -100%;
     transition: right 0.5s;
     overflow-y: auto;
     border: 1px solid rgb(230, 230, 230);
+    height: 100vh;
 
 }
 

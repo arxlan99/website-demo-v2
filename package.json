@@ -12,9 +12,6 @@
     "react-draft-wysiwyg": "^1.14.7",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
-    "slate": "^0.72.3",
-    "slate-history": "^0.66.0",
-    "slate-react": "^0.72.1",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
